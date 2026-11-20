@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 380" width="1280" height="380">
+<defs>
+  <linearGradient id="bgg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#070b24"/><stop offset="0.5" stop-color="#140a33"/><stop offset="1" stop-color="#03202e"/>
+  </linearGradient>
+  <linearGradient id="accg" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#00e5ff"/><stop offset="0.5" stop-color="#b388ff"/><stop offset="1" stop-color="#ff5fa2"/>
+  </linearGradient>
+  <radialGradient id="gag"><stop offset="0" stop-color="#7c4dff" stop-opacity="0.35"/><stop offset="1" stop-color="#7c4dff" stop-opacity="0"/></radialGradient>
+  <radialGradient id="gbg"><stop offset="0" stop-color="#00bcd4" stop-opacity="0.28"/><stop offset="1" stop-color="#00bcd4" stop-opacity="0"/></radialGradient>
+  <pattern id="gridg" width="32" height="32" patternUnits="userSpaceOnUse">
+    <path d="M32 0H0V32" fill="none" stroke="#ffffff" stroke-opacity="0.045"/>
+  </pattern>
+  <filter id="glowg" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <clipPath id="clipg"><rect x="2" y="2" width="100%" height="100%" rx="18"/></clipPath>
+</defs>
+<style>
+  .pulseg { animation: pug 2.4s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+  @keyframes pug { 0%,100% { transform: scale(1); opacity: 1; } 50% { transform: scale(1.4); opacity: .6; } }
+  .blinkg { animation: blg 1s steps(1) infinite; }
+  @keyframes blg { 50% { opacity: 0; } }
+  .drawg { stroke-dasharray: 700; stroke-dashoffset: 700; animation: drg 5s ease-out infinite; }
+  @keyframes drg { 0% { stroke-dashoffset: 700; } 60%,90% { stroke-dashoffset: 0; } 100% { stroke-dashoffset: 0; opacity: 0; } }
+</style>
+<g clip-path="url(#clipg)">
+<rect x="2" y="2" width="1276" height="376" rx="18" fill="url(#bgg)"/>
+<rect x="2" y="2" width="1276" height="376" rx="18" fill="url(#gridg)"/>
+<circle cx="192" cy="76" r="448" fill="url(#gag)"/>
+<circle cx="1152" cy="342" r="448" fill="url(#gbg)"/>
+</g>
+<rect x="2" y="2" width="1276" height="376" rx="18" fill="none" stroke="url(#accg)" stroke-width="2.5" stroke-opacity="0.85"/>
+<text x="44" y="52" font-family="'Fira Code',Consolas,'Courier New',monospace" font-size="16" fill="#00e5ff" letter-spacing="2">05 //</text>
+<text x="44" y="92" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="34" font-weight="800" fill="url(#accg)">Research Publication</text>
+<rect x="44" y="108" width="90" height="3" rx="1.5" fill="url(#accg)"/>
+<path d="M44,150 h70 l26,26 v104 h-96 z" fill="#0d1240" stroke="#00e5ff" stroke-width="2.5"/>
+<path d="M114,150 v26 h26" fill="none" stroke="#00e5ff" stroke-width="2.5"/>
+<rect x="60" y="194" width="64" height="5" rx="2.5" fill="#b388ff" fill-opacity="0.7"/>
+<rect x="60" y="210" width="44" height="5" rx="2.5" fill="#b388ff" fill-opacity="0.7"/>
+<rect x="60" y="226" width="64" height="5" rx="2.5" fill="#b388ff" fill-opacity="0.7"/>
+<rect x="60" y="242" width="44" height="5" rx="2.5" fill="#b388ff" fill-opacity="0.7"/>
+<rect x="60" y="258" width="64" height="5" rx="2.5" fill="#b388ff" fill-opacity="0.7"/>
+<text x="180" y="172" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="27" font-weight="800" fill="#e3e8ff">"A Deep Learning Approach to NIFTY 100 Stock Price</text>
+<text x="180" y="208" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="27" font-weight="800" fill="#e3e8ff">Prediction Using LSTM and GRU Networks"</text>
+<text x="180" y="250" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="19" fill="#aab6e8">1st IEEE International Conference on Emerging Technologies &amp; Innovation for Sustainability</text>
+<text x="180" y="280" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="19" fill="#aab6e8">Noida Institute of Engineering &amp; Technology (NIET), Greater Noida  |  20 to 21 December 2024</text>
+<rect x="180" y="305" width="202" height="40" rx="20" fill="#00e5ff" fill-opacity="0.12" stroke="#00e5ff" stroke-width="1.6"/><circle cx="198" cy="325" r="4" fill="#00e5ff"/><text x="210" y="332" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="17" font-weight="600" fill="#e3e8ff">IEEE Conference</text>
+<rect x="394.1" y="305" width="181" height="40" rx="20" fill="#b388ff" fill-opacity="0.12" stroke="#b388ff" stroke-width="1.6"/><circle cx="412.1" cy="325" r="4" fill="#b388ff"/><text x="424.1" y="332" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="17" font-weight="600" fill="#e3e8ff">Deep Learning</text>
+<rect x="587.12" y="305" width="223" height="40" rx="20" fill="#ff5fa2" fill-opacity="0.12" stroke="#ff5fa2" stroke-width="1.6"/><circle cx="605.12" cy="325" r="4" fill="#ff5fa2"/><text x="617.12" y="332" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="17" font-weight="600" fill="#e3e8ff">Stock Forecasting</text>
+</svg>

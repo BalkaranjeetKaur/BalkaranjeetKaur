@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 630 505" width="630" height="505">
+<defs>
+  <linearGradient id="bgf" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#070b24"/><stop offset="0.5" stop-color="#140a33"/><stop offset="1" stop-color="#03202e"/>
+  </linearGradient>
+  <linearGradient id="accf" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#00e5ff"/><stop offset="0.5" stop-color="#b388ff"/><stop offset="1" stop-color="#ff5fa2"/>
+  </linearGradient>
+  <radialGradient id="gaf"><stop offset="0" stop-color="#7c4dff" stop-opacity="0.35"/><stop offset="1" stop-color="#7c4dff" stop-opacity="0"/></radialGradient>
+  <radialGradient id="gbf"><stop offset="0" stop-color="#00bcd4" stop-opacity="0.28"/><stop offset="1" stop-color="#00bcd4" stop-opacity="0"/></radialGradient>
+  <pattern id="gridf" width="32" height="32" patternUnits="userSpaceOnUse">
+    <path d="M32 0H0V32" fill="none" stroke="#ffffff" stroke-opacity="0.045"/>
+  </pattern>
+  <filter id="glowf" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <clipPath id="clipf"><rect x="2" y="2" width="100%" height="100%" rx="18"/></clipPath>
+</defs>
+<style>
+  .pulsef { animation: puf 2.4s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+  @keyframes puf { 0%,100% { transform: scale(1); opacity: 1; } 50% { transform: scale(1.4); opacity: .6; } }
+  .blinkf { animation: blf 1s steps(1) infinite; }
+  @keyframes blf { 50% { opacity: 0; } }
+  .drawf { stroke-dasharray: 700; stroke-dashoffset: 700; animation: drf 5s ease-out infinite; }
+  @keyframes drf { 0% { stroke-dashoffset: 700; } 60%,90% { stroke-dashoffset: 0; } 100% { stroke-dashoffset: 0; opacity: 0; } }
+</style>
+<g clip-path="url(#clipf)">
+<rect x="2" y="2" width="626" height="501" rx="18" fill="url(#bgf)"/>
+<rect x="2" y="2" width="626" height="501" rx="18" fill="url(#gridf)"/>
+<circle cx="94" cy="101" r="220" fill="url(#gaf)"/>
+<circle cx="567" cy="454" r="220" fill="url(#gbf)"/>
+</g>
+<rect x="2" y="2" width="626" height="501" rx="18" fill="none" stroke="url(#accf)" stroke-width="2.5" stroke-opacity="0.85"/>
+<text x="36" y="50" font-family="'Fira Code',Consolas,'Courier New',monospace" font-size="15" fill="#00e5ff" letter-spacing="2">PROJECT 02</text>
+<text x="36" y="92" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="29" font-weight="800" fill="url(#accf)">S&amp;P BSE SME IPO Index</text>
+<text x="36" y="128" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="29" font-weight="800" fill="url(#accf)">Forecasting</text>
+<text x="36" y="172" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="18" fill="#e3e8ff">Predictive model built on Open, High, Low and</text>
+<text x="36" y="199" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="18" fill="#e3e8ff">Volume data from the S&amp;P BSE SME IPO Index.</text>
+<polyline class="drawf" points="36.0,308.6 55.2,306.2 74.5,296.1 93.7,295.7 113.0,294.3 132.2,291.3 151.4,296.8 170.7,295.4 189.9,291.5 209.2,284.1 228.4,291.5 247.7,294.5 266.9,301.9 286.1,294.2 305.4,289.0 324.6,297.5 343.9,286.1 363.1,275.2 382.3,270.8 401.6,267.2 420.8,273.2 440.1,282.2 459.3,280.5 478.6,288.6 497.8,293.9 517.0,298.2 536.3,306.9 555.5,306.5 574.8,306.6 594.0,298.2" fill="none" stroke="#00e5ff" stroke-width="2.5" stroke-linejoin="round" filter="url(#glowf)"/>
+<rect x="36" y="384" width="104" height="40" rx="20" fill="#00e5ff" fill-opacity="0.12" stroke="#00e5ff" stroke-width="1.6"/><circle cx="54" cy="404" r="4" fill="#00e5ff"/><text x="66" y="411" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="16" font-weight="600" fill="#e3e8ff">Python</text>
+<rect x="151.51999999999998" y="384" width="242" height="40" rx="20" fill="#b388ff" fill-opacity="0.12" stroke="#b388ff" stroke-width="1.6"/><circle cx="169.51999999999998" cy="404" r="4" fill="#b388ff"/><text x="181.51999999999998" y="411" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="16" font-weight="600" fill="#e3e8ff">Predictive Modelling</text>
+<rect x="405.91999999999996" y="384" width="183" height="40" rx="20" fill="#ff5fa2" fill-opacity="0.12" stroke="#ff5fa2" stroke-width="1.6"/><circle cx="423.91999999999996" cy="404" r="4" fill="#ff5fa2"/><text x="435.91999999999996" y="411" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="16" font-weight="600" fill="#e3e8ff">Financial Data</text>
+<text x="594" y="483" font-family="'Fira Code',Consolas,'Courier New',monospace" font-size="15" fill="#ff5fa2" text-anchor="end">view repository →</text>
+</svg>

@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 510" width="1280" height="510">
+<defs>
+  <linearGradient id="bgb" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#070b24"/><stop offset="0.5" stop-color="#140a33"/><stop offset="1" stop-color="#03202e"/>
+  </linearGradient>
+  <linearGradient id="accb" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#00e5ff"/><stop offset="0.5" stop-color="#b388ff"/><stop offset="1" stop-color="#ff5fa2"/>
+  </linearGradient>
+  <radialGradient id="gab"><stop offset="0" stop-color="#7c4dff" stop-opacity="0.35"/><stop offset="1" stop-color="#7c4dff" stop-opacity="0"/></radialGradient>
+  <radialGradient id="gbb"><stop offset="0" stop-color="#00bcd4" stop-opacity="0.28"/><stop offset="1" stop-color="#00bcd4" stop-opacity="0"/></radialGradient>
+  <pattern id="gridb" width="32" height="32" patternUnits="userSpaceOnUse">
+    <path d="M32 0H0V32" fill="none" stroke="#ffffff" stroke-opacity="0.045"/>
+  </pattern>
+  <filter id="glowb" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <clipPath id="clipb"><rect x="2" y="2" width="100%" height="100%" rx="18"/></clipPath>
+</defs>
+<style>
+  .pulseb { animation: pub 2.4s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+  @keyframes pub { 0%,100% { transform: scale(1); opacity: 1; } 50% { transform: scale(1.4); opacity: .6; } }
+  .blinkb { animation: blb 1s steps(1) infinite; }
+  @keyframes blb { 50% { opacity: 0; } }
+  .drawb { stroke-dasharray: 700; stroke-dashoffset: 700; animation: drb 5s ease-out infinite; }
+  @keyframes drb { 0% { stroke-dashoffset: 700; } 60%,90% { stroke-dashoffset: 0; } 100% { stroke-dashoffset: 0; opacity: 0; } }
+</style>
+<g clip-path="url(#clipb)">
+<rect x="2" y="2" width="1276" height="506" rx="18" fill="url(#bgb)"/>
+<rect x="2" y="2" width="1276" height="506" rx="18" fill="url(#gridb)"/>
+<circle cx="192" cy="102" r="448" fill="url(#gab)"/>
+<circle cx="1152" cy="459" r="448" fill="url(#gbb)"/>
+</g>
+<rect x="2" y="2" width="1276" height="506" rx="18" fill="none" stroke="url(#accb)" stroke-width="2.5" stroke-opacity="0.85"/>
+<text x="44" y="52" font-family="'Fira Code',Consolas,'Courier New',monospace" font-size="16" fill="#00e5ff" letter-spacing="2">02 //</text>
+<text x="44" y="92" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="34" font-weight="800" fill="url(#accb)">Technical Toolkit</text>
+<rect x="44" y="108" width="90" height="3" rx="1.5" fill="url(#accb)"/>
+<text x="44" y="176" font-family="'Fira Code',Consolas,'Courier New',monospace" font-size="15" fill="#00e5ff" letter-spacing="1.5">PROGRAMMING &amp; DATA</text>
+<rect x="300" y="150" width="115" height="40" rx="20" fill="#00e5ff" fill-opacity="0.12" stroke="#00e5ff" stroke-width="1.6"/><circle cx="318" cy="170" r="4" fill="#00e5ff"/><text x="330" y="177" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="19" font-weight="600" fill="#e3e8ff">Python</text>
+<rect x="428.68" y="150" width="79" height="40" rx="20" fill="#00e5ff" fill-opacity="0.12" stroke="#00e5ff" stroke-width="1.6"/><circle cx="446.68" cy="170" r="4" fill="#00e5ff"/><text x="458.68" y="177" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="19" font-weight="600" fill="#e3e8ff">SQL</text>
+<rect x="522.02" y="150" width="115" height="40" rx="20" fill="#00e5ff" fill-opacity="0.12" stroke="#00e5ff" stroke-width="1.6"/><circle cx="540.02" cy="170" r="4" fill="#00e5ff"/><text x="552.02" y="177" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="19" font-weight="600" fill="#e3e8ff">Pandas</text>
+<rect x="650.7" y="150" width="103" height="40" rx="20" fill="#00e5ff" fill-opacity="0.12" stroke="#00e5ff" stroke-width="1.6"/><circle cx="668.7" cy="170" r="4" fill="#00e5ff"/><text x="680.7" y="177" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="19" font-weight="600" fill="#e3e8ff">NumPy</text>
+<text x="44" y="242" font-family="'Fira Code',Consolas,'Courier New',monospace" font-size="15" fill="#b388ff" letter-spacing="1.5">MACHINE LEARNING</text>
+<rect x="300" y="216" width="185" height="40" rx="20" fill="#b388ff" fill-opacity="0.12" stroke="#b388ff" stroke-width="1.6"/><circle cx="318" cy="236" r="4" fill="#b388ff"/><text x="330" y="243" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="19" font-weight="600" fill="#e3e8ff">Scikit-learn</text>
+<rect x="499.36" y="216" width="126" height="40" rx="20" fill="#b388ff" fill-opacity="0.12" stroke="#b388ff" stroke-width="1.6"/><circle cx="517.36" cy="236" r="4" fill="#b388ff"/><text x="529.36" y="243" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="19" font-weight="600" fill="#e3e8ff">XGBoost</text>
+<rect x="639.8199999999999" y="216" width="268" height="40" rx="20" fill="#b388ff" fill-opacity="0.12" stroke="#b388ff" stroke-width="1.6"/><circle cx="657.8199999999999" cy="236" r="4" fill="#b388ff"/><text x="669.8199999999999" y="243" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="19" font-weight="600" fill="#e3e8ff">Feature Engineering</text>
+<rect x="921.6399999999999" y="216" width="291" height="40" rx="20" fill="#b388ff" fill-opacity="0.12" stroke="#b388ff" stroke-width="1.6"/><circle cx="939.6399999999999" cy="236" r="4" fill="#b388ff"/><text x="951.6399999999999" y="243" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="19" font-weight="600" fill="#e3e8ff">Hyperparameter Tuning</text>
+<text x="44" y="308" font-family="'Fira Code',Consolas,'Courier New',monospace" font-size="15" fill="#ff5fa2" letter-spacing="1.5">DEEP LEARNING</text>
+<rect x="300" y="282" width="162" height="40" rx="20" fill="#ff5fa2" fill-opacity="0.12" stroke="#ff5fa2" stroke-width="1.6"/><circle cx="318" cy="302" r="4" fill="#ff5fa2"/><text x="330" y="309" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="19" font-weight="600" fill="#e3e8ff">TensorFlow</text>
+<rect x="475.8" y="282" width="103" height="40" rx="20" fill="#ff5fa2" fill-opacity="0.12" stroke="#ff5fa2" stroke-width="1.6"/><circle cx="493.8" cy="302" r="4" fill="#ff5fa2"/><text x="505.8" y="309" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="19" font-weight="600" fill="#e3e8ff">Keras</text>
+<rect x="592.7" y="282" width="91" height="40" rx="20" fill="#ff5fa2" fill-opacity="0.12" stroke="#ff5fa2" stroke-width="1.6"/><circle cx="610.7" cy="302" r="4" fill="#ff5fa2"/><text x="622.7" y="309" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="19" font-weight="600" fill="#e3e8ff">LSTM</text>
+<rect x="697.82" y="282" width="79" height="40" rx="20" fill="#ff5fa2" fill-opacity="0.12" stroke="#ff5fa2" stroke-width="1.6"/><circle cx="715.82" cy="302" r="4" fill="#ff5fa2"/><text x="727.82" y="309" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="19" font-weight="600" fill="#e3e8ff">GRU</text>
+<rect x="791.1600000000001" y="282" width="256" height="40" rx="20" fill="#ff5fa2" fill-opacity="0.12" stroke="#ff5fa2" stroke-width="1.6"/><circle cx="809.1600000000001" cy="302" r="4" fill="#ff5fa2"/><text x="821.1600000000001" y="309" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="19" font-weight="600" fill="#e3e8ff">Bidirectional LSTM</text>
+<text x="44" y="374" font-family="'Fira Code',Consolas,'Courier New',monospace" font-size="15" fill="#ffd740" letter-spacing="1.5">STATISTICS</text>
+<rect x="300" y="348" width="280" height="40" rx="20" fill="#ffd740" fill-opacity="0.12" stroke="#ffd740" stroke-width="1.6"/><circle cx="318" cy="368" r="4" fill="#ffd740"/><text x="330" y="375" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="19" font-weight="600" fill="#e3e8ff">Statistical Analysis</text>
+<rect x="593.6" y="348" width="280" height="40" rx="20" fill="#ffd740" fill-opacity="0.12" stroke="#ffd740" stroke-width="1.6"/><circle cx="611.6" cy="368" r="4" fill="#ffd740"/><text x="623.6" y="375" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="19" font-weight="600" fill="#e3e8ff">Time-Series Analysis</text>
+<rect x="887.2" y="348" width="232" height="40" rx="20" fill="#ffd740" fill-opacity="0.12" stroke="#ffd740" stroke-width="1.6"/><circle cx="905.2" cy="368" r="4" fill="#ffd740"/><text x="917.2" y="375" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="19" font-weight="600" fill="#e3e8ff">Model Evaluation</text>
+<text x="44" y="440" font-family="'Fira Code',Consolas,'Courier New',monospace" font-size="15" fill="#1de9b6" letter-spacing="1.5">VISUALISATION</text>
+<rect x="300" y="414" width="126" height="40" rx="20" fill="#1de9b6" fill-opacity="0.12" stroke="#1de9b6" stroke-width="1.6"/><circle cx="318" cy="434" r="4" fill="#1de9b6"/><text x="330" y="441" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="19" font-weight="600" fill="#e3e8ff">Tableau</text>
+<rect x="440.46" y="414" width="185" height="40" rx="20" fill="#1de9b6" fill-opacity="0.12" stroke="#1de9b6" stroke-width="1.6"/><circle cx="458.46" cy="434" r="4" fill="#1de9b6"/><text x="470.46" y="441" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="19" font-weight="600" fill="#e3e8ff">Spreadsheets</text>
+</svg>

@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 407" width="1280" height="407">
+<defs>
+  <linearGradient id="bgh" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#070b24"/><stop offset="0.5" stop-color="#140a33"/><stop offset="1" stop-color="#03202e"/>
+  </linearGradient>
+  <linearGradient id="acch" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#00e5ff"/><stop offset="0.5" stop-color="#b388ff"/><stop offset="1" stop-color="#ff5fa2"/>
+  </linearGradient>
+  <radialGradient id="gah"><stop offset="0" stop-color="#7c4dff" stop-opacity="0.35"/><stop offset="1" stop-color="#7c4dff" stop-opacity="0"/></radialGradient>
+  <radialGradient id="gbh"><stop offset="0" stop-color="#00bcd4" stop-opacity="0.28"/><stop offset="1" stop-color="#00bcd4" stop-opacity="0"/></radialGradient>
+  <pattern id="gridh" width="32" height="32" patternUnits="userSpaceOnUse">
+    <path d="M32 0H0V32" fill="none" stroke="#ffffff" stroke-opacity="0.045"/>
+  </pattern>
+  <filter id="glowh" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <clipPath id="cliph"><rect x="2" y="2" width="100%" height="100%" rx="18"/></clipPath>
+</defs>
+<style>
+  .pulseh { animation: puh 2.4s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+  @keyframes puh { 0%,100% { transform: scale(1); opacity: 1; } 50% { transform: scale(1.4); opacity: .6; } }
+  .blinkh { animation: blh 1s steps(1) infinite; }
+  @keyframes blh { 50% { opacity: 0; } }
+  .drawh { stroke-dasharray: 700; stroke-dashoffset: 700; animation: drh 5s ease-out infinite; }
+  @keyframes drh { 0% { stroke-dashoffset: 700; } 60%,90% { stroke-dashoffset: 0; } 100% { stroke-dashoffset: 0; opacity: 0; } }
+</style>
+<g clip-path="url(#cliph)">
+<rect x="2" y="2" width="1276" height="403" rx="18" fill="url(#bgh)"/>
+<rect x="2" y="2" width="1276" height="403" rx="18" fill="url(#gridh)"/>
+<circle cx="192" cy="81" r="448" fill="url(#gah)"/>
+<circle cx="1152" cy="366" r="448" fill="url(#gbh)"/>
+</g>
+<rect x="2" y="2" width="1276" height="403" rx="18" fill="none" stroke="url(#acch)" stroke-width="2.5" stroke-opacity="0.85"/>
+<text x="44" y="52" font-family="'Fira Code',Consolas,'Courier New',monospace" font-size="16" fill="#00e5ff" letter-spacing="2">06 //</text>
+<text x="44" y="92" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="34" font-weight="800" fill="url(#acch)">Certifications</text>
+<rect x="44" y="108" width="90" height="3" rx="1.5" fill="url(#acch)"/>
+<rect x="44" y="145" width="580" height="100" rx="14" fill="#00e5ff" fill-opacity="0.08" stroke="#00e5ff" stroke-opacity="0.75"/>
+<circle cx="94" cy="195" r="30" fill="#0d1240" stroke="#00e5ff" stroke-width="2.5"/>
+<text x="94" y="202" font-family="'Fira Code',Consolas,'Courier New',monospace" font-size="17" font-weight="700" fill="#00e5ff" text-anchor="middle">GDA</text>
+<text x="140" y="190" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="19" font-weight="700" fill="#e3e8ff">Google Data Analytics Professional Certificate</text>
+<text x="140" y="219" font-family="'Fira Code',Consolas,'Courier New',monospace" font-size="15" fill="#aab6e8">Google / Coursera  |  2024</text>
+<rect x="656" y="145" width="580" height="100" rx="14" fill="#b388ff" fill-opacity="0.08" stroke="#b388ff" stroke-opacity="0.75"/>
+<circle cx="706" cy="195" r="30" fill="#0d1240" stroke="#b388ff" stroke-width="2.5"/>
+<text x="706" y="202" font-family="'Fira Code',Consolas,'Courier New',monospace" font-size="17" font-weight="700" fill="#b388ff" text-anchor="middle">PY</text>
+<text x="752" y="190" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="20" font-weight="700" fill="#e3e8ff">Python for Data Science (Elite)</text>
+<text x="752" y="219" font-family="'Fira Code',Consolas,'Courier New',monospace" font-size="15" fill="#aab6e8">NPTEL, IIT Madras  |  2024</text>
+<rect x="44" y="267" width="580" height="100" rx="14" fill="#ff5fa2" fill-opacity="0.08" stroke="#ff5fa2" stroke-opacity="0.75"/>
+<circle cx="94" cy="317" r="30" fill="#0d1240" stroke="#ff5fa2" stroke-width="2.5"/>
+<text x="94" y="324" font-family="'Fira Code',Consolas,'Courier New',monospace" font-size="17" font-weight="700" fill="#ff5fa2" text-anchor="middle">GA</text>
+<text x="140" y="312" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="20" font-weight="700" fill="#e3e8ff">Google Analytics Certificate</text>
+<text x="140" y="341" font-family="'Fira Code',Consolas,'Courier New',monospace" font-size="15" fill="#aab6e8">Digital analytics</text>
+<rect x="656" y="267" width="580" height="100" rx="14" fill="#ffd740" fill-opacity="0.08" stroke="#ffd740" stroke-opacity="0.75"/>
+<circle cx="706" cy="317" r="30" fill="#0d1240" stroke="#ffd740" stroke-width="2.5"/>
+<text x="706" y="324" font-family="'Fira Code',Consolas,'Courier New',monospace" font-size="17" font-weight="700" fill="#ffd740" text-anchor="middle">IoT</text>
+<text x="752" y="312" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="20" font-weight="700" fill="#e3e8ff">Internet of Things (IoT) Certificate</text>
+<text x="752" y="341" font-family="'Fira Code',Consolas,'Courier New',monospace" font-size="15" fill="#aab6e8">Technical learning</text>
+</svg>
