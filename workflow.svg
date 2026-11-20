@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 360" width="1280" height="360">
+<defs>
+  <linearGradient id="bgc" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#070b24"/><stop offset="0.5" stop-color="#140a33"/><stop offset="1" stop-color="#03202e"/>
+  </linearGradient>
+  <linearGradient id="accc" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#00e5ff"/><stop offset="0.5" stop-color="#b388ff"/><stop offset="1" stop-color="#ff5fa2"/>
+  </linearGradient>
+  <radialGradient id="gac"><stop offset="0" stop-color="#7c4dff" stop-opacity="0.35"/><stop offset="1" stop-color="#7c4dff" stop-opacity="0"/></radialGradient>
+  <radialGradient id="gbc"><stop offset="0" stop-color="#00bcd4" stop-opacity="0.28"/><stop offset="1" stop-color="#00bcd4" stop-opacity="0"/></radialGradient>
+  <pattern id="gridc" width="32" height="32" patternUnits="userSpaceOnUse">
+    <path d="M32 0H0V32" fill="none" stroke="#ffffff" stroke-opacity="0.045"/>
+  </pattern>
+  <filter id="glowc" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <clipPath id="clipc"><rect x="2" y="2" width="100%" height="100%" rx="18"/></clipPath>
+</defs>
+<style>
+  .pulsec { animation: puc 2.4s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+  @keyframes puc { 0%,100% { transform: scale(1); opacity: 1; } 50% { transform: scale(1.4); opacity: .6; } }
+  .blinkc { animation: blc 1s steps(1) infinite; }
+  @keyframes blc { 50% { opacity: 0; } }
+  .drawc { stroke-dasharray: 700; stroke-dashoffset: 700; animation: drc 5s ease-out infinite; }
+  @keyframes drc { 0% { stroke-dashoffset: 700; } 60%,90% { stroke-dashoffset: 0; } 100% { stroke-dashoffset: 0; opacity: 0; } }
+</style>
+<g clip-path="url(#clipc)">
+<rect x="2" y="2" width="1276" height="356" rx="18" fill="url(#bgc)"/>
+<rect x="2" y="2" width="1276" height="356" rx="18" fill="url(#gridc)"/>
+<circle cx="192" cy="72" r="448" fill="url(#gac)"/>
+<circle cx="1152" cy="324" r="448" fill="url(#gbc)"/>
+</g>
+<rect x="2" y="2" width="1276" height="356" rx="18" fill="none" stroke="url(#accc)" stroke-width="2.5" stroke-opacity="0.85"/>
+<text x="44" y="52" font-family="'Fira Code',Consolas,'Courier New',monospace" font-size="16" fill="#00e5ff" letter-spacing="2">03 //</text>
+<text x="44" y="92" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="34" font-weight="800" fill="url(#accc)">Machine Learning Workflow</text>
+<rect x="44" y="108" width="90" height="3" rx="1.5" fill="url(#accc)"/>
+<rect x="140" y="213" width="1000" height="4" rx="2" fill="url(#accc)" fill-opacity="0.7"/>
+<circle r="5" fill="#ffffff" filter="url(#glowc)"><animateMotion path="M140,215 L1140,215" dur="5s" begin="-0s" repeatCount="indefinite"/></circle>
+<circle r="5" fill="#ffffff" filter="url(#glowc)"><animateMotion path="M140,215 L1140,215" dur="5s" begin="-1s" repeatCount="indefinite"/></circle>
+<circle r="5" fill="#ffffff" filter="url(#glowc)"><animateMotion path="M140,215 L1140,215" dur="5s" begin="-2s" repeatCount="indefinite"/></circle>
+<circle r="5" fill="#ffffff" filter="url(#glowc)"><animateMotion path="M140,215 L1140,215" dur="5s" begin="-3s" repeatCount="indefinite"/></circle>
+<circle r="5" fill="#ffffff" filter="url(#glowc)"><animateMotion path="M140,215 L1140,215" dur="5s" begin="-4s" repeatCount="indefinite"/></circle>
+<circle cx="140" cy="215" r="44" fill="#0d1240" stroke="#00e5ff" stroke-width="3"/>
+<circle class="pulsec" cx="140" cy="215" r="36" fill="#00e5ff" fill-opacity="0.12" style="animation-delay:0.0s"/>
+<text x="140" y="226" font-family="'Fira Code',Consolas,'Courier New',monospace" font-size="30" font-weight="700" fill="#00e5ff" text-anchor="middle">01</text>
+<text x="140" y="297" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="20" font-weight="700" fill="#e3e8ff" text-anchor="middle">Raw Data</text>
+<circle cx="340" cy="215" r="44" fill="#0d1240" stroke="#1de9b6" stroke-width="3"/>
+<circle class="pulsec" cx="340" cy="215" r="36" fill="#1de9b6" fill-opacity="0.12" style="animation-delay:0.4s"/>
+<text x="340" y="226" font-family="'Fira Code',Consolas,'Courier New',monospace" font-size="30" font-weight="700" fill="#1de9b6" text-anchor="middle">02</text>
+<text x="340" y="297" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="20" font-weight="700" fill="#e3e8ff" text-anchor="middle">Cleaning</text>
+<circle cx="540" cy="215" r="44" fill="#0d1240" stroke="#7c9cff" stroke-width="3"/>
+<circle class="pulsec" cx="540" cy="215" r="36" fill="#7c9cff" fill-opacity="0.12" style="animation-delay:0.8s"/>
+<text x="540" y="226" font-family="'Fira Code',Consolas,'Courier New',monospace" font-size="30" font-weight="700" fill="#7c9cff" text-anchor="middle">03</text>
+<text x="540" y="297" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="20" font-weight="700" fill="#e3e8ff" text-anchor="middle">Feature</text>
+<text x="540" y="321" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="20" font-weight="700" fill="#e3e8ff" text-anchor="middle">Engineering</text>
+<circle cx="740" cy="215" r="44" fill="#0d1240" stroke="#b388ff" stroke-width="3"/>
+<circle class="pulsec" cx="740" cy="215" r="36" fill="#b388ff" fill-opacity="0.12" style="animation-delay:1.2s"/>
+<text x="740" y="226" font-family="'Fira Code',Consolas,'Courier New',monospace" font-size="30" font-weight="700" fill="#b388ff" text-anchor="middle">04</text>
+<text x="740" y="297" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="20" font-weight="700" fill="#e3e8ff" text-anchor="middle">Model</text>
+<text x="740" y="321" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="20" font-weight="700" fill="#e3e8ff" text-anchor="middle">Training</text>
+<circle cx="940" cy="215" r="44" fill="#0d1240" stroke="#e040fb" stroke-width="3"/>
+<circle class="pulsec" cx="940" cy="215" r="36" fill="#e040fb" fill-opacity="0.12" style="animation-delay:1.6s"/>
+<text x="940" y="226" font-family="'Fira Code',Consolas,'Courier New',monospace" font-size="30" font-weight="700" fill="#e040fb" text-anchor="middle">05</text>
+<text x="940" y="297" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="20" font-weight="700" fill="#e3e8ff" text-anchor="middle">Tuning</text>
+<circle cx="1140" cy="215" r="44" fill="#0d1240" stroke="#ff5fa2" stroke-width="3"/>
+<circle class="pulsec" cx="1140" cy="215" r="36" fill="#ff5fa2" fill-opacity="0.12" style="animation-delay:2.0s"/>
+<text x="1140" y="226" font-family="'Fira Code',Consolas,'Courier New',monospace" font-size="30" font-weight="700" fill="#ff5fa2" text-anchor="middle">06</text>
+<text x="1140" y="297" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="20" font-weight="700" fill="#e3e8ff" text-anchor="middle">Evaluation</text>
+</svg>

@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 560" width="1280" height="560">
+<defs>
+  <linearGradient id="bga" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#070b24"/><stop offset="0.5" stop-color="#140a33"/><stop offset="1" stop-color="#03202e"/>
+  </linearGradient>
+  <linearGradient id="acca" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#00e5ff"/><stop offset="0.5" stop-color="#b388ff"/><stop offset="1" stop-color="#ff5fa2"/>
+  </linearGradient>
+  <radialGradient id="gaa"><stop offset="0" stop-color="#7c4dff" stop-opacity="0.35"/><stop offset="1" stop-color="#7c4dff" stop-opacity="0"/></radialGradient>
+  <radialGradient id="gba"><stop offset="0" stop-color="#00bcd4" stop-opacity="0.28"/><stop offset="1" stop-color="#00bcd4" stop-opacity="0"/></radialGradient>
+  <pattern id="grida" width="32" height="32" patternUnits="userSpaceOnUse">
+    <path d="M32 0H0V32" fill="none" stroke="#ffffff" stroke-opacity="0.045"/>
+  </pattern>
+  <filter id="glowa" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <clipPath id="clipa"><rect x="2" y="2" width="100%" height="100%" rx="18"/></clipPath>
+</defs>
+<style>
+  .pulsea { animation: pua 2.4s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+  @keyframes pua { 0%,100% { transform: scale(1); opacity: 1; } 50% { transform: scale(1.4); opacity: .6; } }
+  .blinka { animation: bla 1s steps(1) infinite; }
+  @keyframes bla { 50% { opacity: 0; } }
+  .drawa { stroke-dasharray: 700; stroke-dashoffset: 700; animation: dra 5s ease-out infinite; }
+  @keyframes dra { 0% { stroke-dashoffset: 700; } 60%,90% { stroke-dashoffset: 0; } 100% { stroke-dashoffset: 0; opacity: 0; } }
+</style>
+<g clip-path="url(#clipa)">
+<rect x="2" y="2" width="1276" height="556" rx="18" fill="url(#bga)"/>
+<rect x="2" y="2" width="1276" height="556" rx="18" fill="url(#grida)"/>
+<circle cx="192" cy="112" r="448" fill="url(#gaa)"/>
+<circle cx="1152" cy="504" r="448" fill="url(#gba)"/>
+</g>
+<rect x="2" y="2" width="1276" height="556" rx="18" fill="none" stroke="url(#acca)" stroke-width="2.5" stroke-opacity="0.85"/>
+<text x="44" y="52" font-family="'Fira Code',Consolas,'Courier New',monospace" font-size="16" fill="#00e5ff" letter-spacing="2">01 //</text>
+<text x="44" y="92" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="34" font-weight="800" fill="url(#acca)">Profile Overview</text>
+<rect x="44" y="108" width="90" height="3" rx="1.5" fill="url(#acca)"/>
+<text x="44" y="160" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="22" fill="#e3e8ff">I am a data analyst who works on machine learning</text>
+<text x="44" y="193" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="22" fill="#e3e8ff">and deep learning, with a focus on financial</text>
+<text x="44" y="226" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="22" fill="#e3e8ff">time-series forecasting.</text>
+<text x="44" y="277" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="22" fill="#e3e8ff">I take projects from raw data to a tested model:</text>
+<text x="44" y="310" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="22" fill="#e3e8ff">cleaning, feature engineering, training, tuning</text>
+<text x="44" y="343" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="22" fill="#e3e8ff">and evaluation.</text>
+<text x="44" y="394" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="22" fill="#e3e8ff">My hybrid LSTM-GRU research on NIFTY 100 stock</text>
+<text x="44" y="427" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="22" fill="#e3e8ff">prices was presented at an IEEE international</text>
+<text x="44" y="460" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="22" fill="#e3e8ff">conference in December 2024.</text>
+<circle class="pulsea" cx="56" cy="507" r="7" fill="#00e676" filter="url(#glowa)"/>
+<text x="74" y="514" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="20" font-weight="600" fill="#00e676">Open to Data Analyst, Data Scientist and Junior Data Scientist roles</text>
+<rect x="735" y="135" width="500" height="330" rx="14" fill="#060920" fill-opacity="0.85" stroke="#b388ff" stroke-opacity="0.5"/>
+<circle cx="759" cy="157" r="6" fill="#ff5f56"/>
+<circle cx="779" cy="157" r="6" fill="#ffbd2e"/>
+<circle cx="799" cy="157" r="6" fill="#27c93f"/>
+<text x="1215" y="162" font-family="'Fira Code',Consolas,'Courier New',monospace" font-size="14" fill="#aab6e8" text-anchor="end">profile.py</text>
+<text x="759" y="205" font-family="'Fira Code',Consolas,'Courier New',monospace" font-size="17" xml:space="preserve"><tspan fill="#ff79c6">class </tspan><tspan fill="#ffd740">BalkaranjeetKaur</tspan><tspan fill="#e3e8ff">:</tspan></text>
+<text x="759" y="233" font-family="'Fira Code',Consolas,'Courier New',monospace" font-size="17" xml:space="preserve"><tspan fill="#00e5ff">    role    = </tspan><tspan fill="#a5ff90">"Data Analyst"</tspan></text>
+<text x="759" y="261" font-family="'Fira Code',Consolas,'Courier New',monospace" font-size="17" xml:space="preserve"><tspan fill="#00e5ff">    focus   = </tspan><tspan fill="#e3e8ff">[</tspan><tspan fill="#a5ff90">"Forecasting"</tspan><tspan fill="#e3e8ff">,</tspan></text>
+<text x="759" y="289" font-family="'Fira Code',Consolas,'Courier New',monospace" font-size="17" xml:space="preserve"><tspan fill="#e3e8ff">               </tspan><tspan fill="#a5ff90">"Deep Learning"</tspan><tspan fill="#e3e8ff">,</tspan></text>
+<text x="759" y="317" font-family="'Fira Code',Consolas,'Courier New',monospace" font-size="17" xml:space="preserve"><tspan fill="#e3e8ff">               </tspan><tspan fill="#a5ff90">"Financial Data"</tspan><tspan fill="#e3e8ff">]</tspan></text>
+<text x="759" y="345" font-family="'Fira Code',Consolas,'Courier New',monospace" font-size="17" xml:space="preserve"><tspan fill="#00e5ff">    models  = </tspan><tspan fill="#e3e8ff">[</tspan><tspan fill="#a5ff90">"LSTM"</tspan><tspan fill="#e3e8ff">, </tspan><tspan fill="#a5ff90">"GRU"</tspan><tspan fill="#e3e8ff">,</tspan></text>
+<text x="759" y="373" font-family="'Fira Code',Consolas,'Courier New',monospace" font-size="17" xml:space="preserve"><tspan fill="#e3e8ff">               </tspan><tspan fill="#a5ff90">"XGBoost"</tspan><tspan fill="#e3e8ff">]</tspan></text>
+<text x="759" y="401" font-family="'Fira Code',Consolas,'Courier New',monospace" font-size="17" xml:space="preserve"><tspan fill="#00e5ff">    tools   = </tspan><tspan fill="#e3e8ff">[</tspan><tspan fill="#a5ff90">"Python"</tspan><tspan fill="#e3e8ff">, </tspan><tspan fill="#a5ff90">"SQL"</tspan><tspan fill="#e3e8ff">,</tspan></text>
+<text x="759" y="429" font-family="'Fira Code',Consolas,'Courier New',monospace" font-size="17" xml:space="preserve"><tspan fill="#e3e8ff">               </tspan><tspan fill="#a5ff90">"TensorFlow"</tspan><tspan fill="#e3e8ff">]</tspan></text>
+<rect class="blinka" x="759" y="439" width="10" height="20" fill="#00e5ff"/>
+</svg>
