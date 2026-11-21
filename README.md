@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://www.linkedin.com/in/balkaranjeet-kaur/"><img src="https://img.shields.io/badge/LinkedIn-0d1240?style=for-the-badge&logo=linkedin&logoColor=00e5ff" alt="LinkedIn"></a>
   <a href="mailto:balkaranmarahar24@gmail.com"><img src="https://img.shields.io/badge/Email-0d1240?style=for-the-badge&logo=gmail&logoColor=b388ff" alt="Email"></a>
-  <img src="https://img.shields.io/badge/Panchkula%2C%20India-0d1240?style=for-the-badge&logo=googlemaps&logoColor=ff5fa2" alt="Location: Panchkula, India">
+  <img src="https://img.shields.io/badge/Chandigarh%2C%20India-0d1240?style=for-the-badge&logo=googlemaps&logoColor=ff5fa2" alt="Location: Chandigarh, India">
   <img src="https://img.shields.io/badge/Open%20to%20Work-0d1240?style=for-the-badge&logoColor=00e676" alt="Open to work">
 </p>
 
